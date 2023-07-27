@@ -24,6 +24,7 @@
 		FBB7D82B2A7250E20076678B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBB7D82E2A7250E20076678B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBB7D8302A7250E20076678B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB7D8382A72513B0076678B /* DependencyInjection.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DependencyInjection.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,15 @@
 		FBB7D8212A7250DF0076678B /* DependencyInjectionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FBB7D8372A7250F60076678B /* DependencyInjectionFileDemo */,
+				FBB7D8362A7250E90076678B /* App */,
+			);
+			path = DependencyInjectionDemo;
+			sourceTree = "<group>";
+		};
+		FBB7D8362A7250E90076678B /* App */ = {
+			isa = PBXGroup;
+			children = (
 				FBB7D8222A7250DF0076678B /* AppDelegate.swift */,
 				FBB7D8242A7250DF0076678B /* SceneDelegate.swift */,
 				FBB7D8262A7250DF0076678B /* ViewController.swift */,
@@ -64,7 +74,15 @@
 				FBB7D82D2A7250E20076678B /* LaunchScreen.storyboard */,
 				FBB7D8302A7250E20076678B /* Info.plist */,
 			);
-			path = DependencyInjectionDemo;
+			path = App;
+			sourceTree = "<group>";
+		};
+		FBB7D8372A7250F60076678B /* DependencyInjectionFileDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FBB7D8382A72513B0076678B /* DependencyInjection.playground */,
+			);
+			path = DependencyInjectionFileDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
